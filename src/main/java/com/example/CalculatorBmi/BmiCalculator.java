@@ -1,4 +1,4 @@
-package com.example.CalculatorBmi.BmiCalculator;
+package com.example.CalculatorBmi;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -13,13 +13,13 @@ public class BmiCalculator {
 
     private double height;
 
+
+
     public double getBmiIndex(double height, double weight) {
         height /= 100;
 
         double bmiIndex = weight / (height * height);
         return bmiIndex;
-
-
     }
 
 

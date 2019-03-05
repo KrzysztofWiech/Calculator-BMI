@@ -1,6 +1,5 @@
-package com.example.CalculatorBmi.BmiController;
+package com.example.CalculatorBmi;
 
-import com.example.CalculatorBmi.BmiCalculator.BmiCalculator;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;

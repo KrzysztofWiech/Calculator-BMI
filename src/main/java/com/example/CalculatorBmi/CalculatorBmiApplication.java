@@ -1,4 +1,4 @@
-package com.example.CalculatorBmi.BmiApplication;
+package com.example.CalculatorBmi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CalculatorBmiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CalculatorBmiApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CalculatorBmiApplication.class, args);
+    }
 
 }
