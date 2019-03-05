@@ -1,4 +1,4 @@
-package com.example.CalculatorBmi;
+package com.example.CalculatorBmi.BmiApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

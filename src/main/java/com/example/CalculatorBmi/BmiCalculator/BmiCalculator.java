@@ -1,4 +1,4 @@
-package com.example.CalculatorBmi;
+package com.example.CalculatorBmi.BmiCalculator;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
