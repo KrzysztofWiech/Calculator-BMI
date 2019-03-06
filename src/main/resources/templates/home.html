@@ -13,23 +13,25 @@
 
 <form action="/bmi">
 
-    <input type="text" name="height">
+    <label>Wzrost:</label>
+    <input type="text" name="height" placeholder="Twój wzrost">
 
     <label>Waga:</label>
-    <input type="text" name="weight">
+    <input type="text" name="weight" placeholder="Twoja waga">
 
     <input type="submit" value="Wyślij">
+
     <div class="opcja">
         <input type="checkbox" name="woman" value="Kobieta"> Kobieta<br>
         <input type="checkbox" name="man" value="Mężczyzna">Mężczyzna<br>
     </div>
-</form>
 
 </form>
+
 
 <br><br>
-<link rel="stylesheet" href="style.css">
-Zakresy wartości BMI:<br><br>
+
+Zakresy wartości BMI:<br>
 mniej niż 16 - wygłodzenie<br>
 16 - 16.99 - wychudzenie<br>
 17 - 18.49 - niedowaga<br>
