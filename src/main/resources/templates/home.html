@@ -2,44 +2,56 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kalkulator BMI</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
 </head>
 
+
 <body bgcolor="aqua">
+<article>
+    <h1 id='special-h'> Kalkulator Twojego BMI </h1>
+
+    Przejdź do strony domowej<br>
+    <a href="home">Home</a>
+    <br><br>
+    Podaj dane:<br>
 
 
-<a href="home">Home</a>
+    <form action="/bmi">
 
-<form action="/bmi">
+        <label>Wzrost:</label>
+        <input type="text" name="height" placeholder="Twój wzrost">
 
-    <label>Wzrost:</label>
-    <input type="text" name="height" placeholder="Twój wzrost">
+        <label>Waga:</label>
+        <input type="text" name="weight" placeholder="Twoja waga">
 
-    <label>Waga:</label>
-    <input type="text" name="weight" placeholder="Twoja waga">
+        <input type="submit" value="Wyślij">
 
-    <input type="submit" value="Wyślij">
+        <div class="opcja">
+            <input type="checkbox" name="woman" value="Kobieta"> Kobieta<br>
+            <input type="checkbox" name="man" value="Mężczyzna">Mężczyzna<br>
+        </div>
 
-    <div class="opcja">
-        <input type="checkbox" name="woman" value="Kobieta"> Kobieta<br>
-        <input type="checkbox" name="man" value="Mężczyzna">Mężczyzna<br>
+    </form>
+
+    <br><br>
+    <div>
+        Zakresy wartości BMI:<br>
+        mniej niż 16 - wygłodzenie<br>
+        16 - 16.99 - wychudzenie<br>
+        17 - 18.49 - niedowaga<br>
+        18.5 - 24.99 - wartość prawidłowa<br>
+        25 - 29.99 - nadwaga<br>
+        30 - 34.99 - I stopień otyłości<br>
+        35 - 39.99 - II stopień otyłości<br>
+        powyżej 40 - otyłość skrajna<br>
     </div>
 
-</form>
 
-
-<br><br>
-
-Zakresy wartości BMI:<br>
-mniej niż 16 - wygłodzenie<br>
-16 - 16.99 - wychudzenie<br>
-17 - 18.49 - niedowaga<br>
-18.5 - 24.99 - wartość prawidłowa<br>
-25 - 29.99 - nadwaga<br>
-30 - 34.99 - I stopień otyłości<br>
-35 - 39.99 - II stopień otyłości<br>
-powyżej 40 - otyłość skrajna
+</article>
 
 </body>
 </html>

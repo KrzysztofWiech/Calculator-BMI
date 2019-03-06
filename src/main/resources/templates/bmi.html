@@ -2,28 +2,32 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
-
+    <title>Wynik BMI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body bgcolor="aqua">
-<a href="home">Home</a>
+<articleBmi>
+    <h1 id='special-h'> WYNIK </h1>
+    Przejdź do strony domowej<br>
+    <a href="home">Home</a>
+    <br><br>
 
-<h3>Status jak gruby jesteś to: <p th:text="${info}"></p></h3>
+    <h3>Status jak gruby jesteś to: <p th:text="${info}"></p></h3>
 
-Twój wzrost<br>
-<p th:text="${wzrost}"></p>
+    Twój wzrost<br>
+    <p th:text="${wzrost}"></p>
 
-Twoja waga<br>
-<p th:text="${waga}"></p>
+    Twoja waga<br>
+    <p th:text="${waga}"></p>
 
-Wskaźnik bmi wynosi<br>
-<p th:text="${bmi}"></p>
+    Wskaźnik bmi wynosi<br>
+    <p th:text="${bmi}"></p>
 
-Informacja dla ciebie<br>
-<p th:text="${bmimessage}"></p>
+    Informacja dla ciebie<br>
+    <p th:text="${bmimessage}"></p>
 
-
+</articleBmi>
 
 
 </body>
